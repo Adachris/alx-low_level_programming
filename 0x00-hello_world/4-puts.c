@@ -1,10 +1,12 @@
-#include <stdio.h>
+#!/bin/bash
+#include<stdio.h>
 /**
- * main - A program that prints a line with puts function
- * Return: 0 (Success)
+ * main -is the entry point for the program.
+ *
+ * Return:zero if no error, Non-zero value  if errors
  */
 int main(void)
 {
-puts("\ "Programming is like building a multilgual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
