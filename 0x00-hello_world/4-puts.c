@@ -1,15 +1,12 @@
 #!/bin/bash
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - Entry point
- * Description: prints "\"Programming is like building a multilingual puzzle"
- * Return: 0
- */
-
+ * main -is the entry point for the program.
+ *
+ * Return:zero if no error, Non-zero value if errors
+ * */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-
-return (0);
+ puts("\Programmng is like bulding a multilingual puzzle");
+ return (0);
 }
